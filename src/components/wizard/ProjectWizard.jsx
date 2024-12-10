@@ -35,7 +35,7 @@ function ProjectWizard() {
 
   const steps = [
     'Choose Project Type',
-    'Upload Picture of the item',
+    'Upload Picture of your item',
     formData.type === 'vector' ? 'Upload Vector File' : null
   ].filter(Boolean);
 
@@ -158,7 +158,7 @@ function ProjectWizard() {
         return (
           <Box sx={{ p: 3 }}>
             <Typography variant="h5" gutterBottom align="center">
-              {isVectorStep ? 'Upload Vector File' : 'Upload Picture of the item'}
+              {isVectorStep ? 'Upload Vector File' : 'Upload Picture of your item'}
             </Typography>
             <Typography variant="body1" color="text.secondary" align="center" sx={{ mb: 4 }}>
               {isVectorStep 

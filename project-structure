@@ -1,0 +1,32 @@
+nyc-engraving/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── ThemeToggle.jsx
+│   │   ├── editor/
+│   │   │   ├── ProjectEditor.jsx
+│   │   │   ├── TextOverlay.jsx
+│   │   │   └── VectorUpload.jsx
+│   │   └── auth/
+│   │       ├── Login.jsx
+│   │       └── ProtectedRoute.jsx
+│   ├── pages/
+│   │   ├── EntryPage.jsx
+│   │   ├── ProjectWizard.jsx
+│   │   ├── Editor.jsx
+│   │   └── admin/
+│   │       ├── Dashboard.jsx
+│   │       ├── ProjectManagement.jsx
+│   │       └── Settings.jsx
+│   ├── services/
+│   │   ├── firebase.js
+│   │   └── projectService.js
+│   ├── store/
+│   │   ├── store.js
+│   │   └── slices/
+│   │       ├── themeSlice.js
+│   │       └── projectSlice.js
+│   ├── App.jsx
+│   └── main.jsx 

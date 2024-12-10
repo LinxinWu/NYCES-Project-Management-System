@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "nyces-web-system"
+  },
+  "targets": {
+    "nyces-web-system": {
+      "storage": {
+        "rules": [
+          "nyces-web-system.appspot.com"
+        ]
+      }
+    }
+  }
+}
